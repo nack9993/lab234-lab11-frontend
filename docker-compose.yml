@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+ backend:
+  image: dto80/se234-lab11:latest
+  ports:
+   - "8084:8080"
+ frontend:
+  image: nack9993/lab234-lab11-frontend:latest
+  ports:
+   - "8083:80"
